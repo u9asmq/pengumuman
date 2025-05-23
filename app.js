@@ -8,7 +8,7 @@
 function setCountdown() {
 
     // Set countdown date
-    let countdownDate = new Date('May 23, 2025 23:59:59').getTime();
+    let countdownDate = new Date('May 23, 2025 19:15:59').getTime();
 
     // Update countdown every second
     let updateCount = setInterval(function(){
@@ -38,7 +38,7 @@ function setCountdown() {
             clearInterval(updateCount);
             document.querySelector(".container").innerHTML = `
               <h1>PENGUMUMAN TELAH DIBUKA</h1>
-              <a href="https://pengumuman.sman1lu.web.id" class="expired-button">Klik di sini untuk menuju pengumuman</a>
+              <a href="https://u9asmq.github.io/kllspmb/" class="expired-button">Klik di sini untuk menuju pengumuman</a>
             `;
         }
     }, 1000)
